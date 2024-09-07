@@ -20,7 +20,8 @@ public:
                 i++;
 
             }while(s[i]!=' ' && i<n){
-                temp +=s[i];  //temp me daal rhe na space encounter hone ke baad 
+                temp +=s[i];  //temp me insert kr rhe na space encounter hone ke baad 
+
                 i++;
             }
             if(temp.size()>0){
