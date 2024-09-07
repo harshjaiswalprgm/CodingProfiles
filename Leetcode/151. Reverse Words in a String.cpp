@@ -20,10 +20,11 @@ public:
                 i++;
 
             }while(s[i]!=' ' && i<n){
-                temp +=s[i];
+                temp +=s[i];  //temp me daal rhe na space encounter hone ke baad 
                 i++;
             }
             if(temp.size()>0){
+
                 if(ans.size()==0)
                 ans = temp;
                 else
