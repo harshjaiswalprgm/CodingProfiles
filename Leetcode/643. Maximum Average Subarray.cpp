@@ -1,6 +1,6 @@
 // You are given an integer array nums consisting of n elements, and an integer k.
 
-// Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.
+// Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than will be accepted.
 
  
 
@@ -28,7 +28,7 @@ public:
             sum = sum+nums[i];
         }
 
-        int maxSum= sum;
+        int maxSum= sum;  // geting hte higst value from hte hole array
 
         int startIndex = 0;
         int endIndex = k;
